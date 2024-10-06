@@ -2,10 +2,7 @@ title: Voice Command Documentation
 description: This is a documentation portal for the Voice Command feature.
 theme: just-the-docs
 
-logo: "/assets/images/logo.png"
-favicon_ico: "/assets/images/favicon-34.png"
-
-url: https://eventicious.com/
+url: https://github.com/egoranuchin/ea-billing-platform-test
 
 search_enabled: true
 search:
