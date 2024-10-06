@@ -2,6 +2,8 @@ title: Voice Command Documentation
 description: This is a documentation portal for the Voice Command feature.
 theme: just-the-docs
 
+color_scheme: foo
+
 url: https://github.com/egoranuchin/ea-billing-platform-test
 
 search_enabled: true
