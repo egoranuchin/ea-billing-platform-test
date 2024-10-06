@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Voice Command Feature Overview
+title: Feature Overview
 nav_order: 1
 ---
 
