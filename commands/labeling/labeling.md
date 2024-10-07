@@ -2,11 +2,9 @@
 layout: default
 title: Labeling Emails
 nav_order: 4
-parent: User Guide
-has_children: true
+parent: Commands
+ancestor: User Guide
 ---
-
-
 
 Labeling Emails
 

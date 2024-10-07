@@ -1,8 +1,8 @@
 ---
 layout: default
 title: FAQ
-nav_order: 4
-has_children: true
+nav_order: 3
+parent: User Guide
 ---
 
 Frequently Asked Questions (FAQs)

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Release Notes
-nav_order: 5
-has_children: true
+nav_order: 4
+parent: User Guide
 ---
 
 Release Notes: Google Voice Command for Gmail
