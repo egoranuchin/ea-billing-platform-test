@@ -29,7 +29,7 @@ When a user speaks a command (e.g., “Send an email”), the following flow is 
 4. Response Handling: The result is relayed back to the user (e.g., email sent, unread emails listed).
 
 ```mermaid
-graph LR
+graph TD
     subgraph User Interface
         A[User Voice Input] --> B[Voice Recognition Engine]
     end
