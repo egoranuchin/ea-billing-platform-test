@@ -5,17 +5,24 @@ nav_order: 1
 parent: User Guide
 ---
 
-## Getting Started
+# Getting Started
+{: .no_toc }
 
 To begin using Voice Command with Gmail, follow these steps to ensure that your device is set up and ready to handle voice-based email management. This initial setup will enable the voice assistant to respond to your commands and integrate with your Gmail account for seamless email handling.
+
+## Table of Contents
+{: .no_toc .text-delta }
+
+- TOC
+{:toc}
 
 ## Step 1: Ensure Device Compatibility
 
 Verify that your device meets the minimum system requirements:
 
-* Android: Version 6.0 or higher;
-* iOS: Version 13.0 or higher;
-* A stable internet connection is required for voice recognition.
+- Android: Version 6.0 or higher;
+- iOS: Version 13.0 or higher;
+- A stable internet connection is required for voice recognition.
 
 ## Step 2: Update Gmail
 
