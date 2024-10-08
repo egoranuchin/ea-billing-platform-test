@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Sending an Email
+title: Sending
 nav_order: 2
 parent: Commands
 ancestor: User Guide
 ---
 
-## Composing an Email
+## Sending an Email
 
 Follow these steps to send an email with Google Voice Command:
 

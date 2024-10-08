@@ -5,7 +5,7 @@ nav_order: 1
 parent: User Guide
 ---
 
-# Getting Started
+## Getting Started
 
 To begin using Voice Command with Gmail, follow these steps to ensure that your device is set up and ready to handle voice-based email management. This initial setup will enable the voice assistant to respond to your commands and integrate with your Gmail account for seamless email handling.
 

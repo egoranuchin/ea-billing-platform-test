@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Replying an Email
+title: Replying
 nav_order: 4
 parent: Commands
 ancestor: User Guide

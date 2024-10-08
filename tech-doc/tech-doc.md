@@ -28,6 +28,8 @@ When a user speaks a command (e.g., “Send an email”), the following flow is 
 3. Gmail API Invocation: The Action Execution Layer translates the command into the corresponding Gmail API call, handling authentication and execution.
 4. Response Handling: The result is relayed back to the user (e.g., email sent, unread emails listed).
 
+![](../assets/images/gmail-voice-architecture-svg.svg)
+
 ![](../assets/images/mermaid-diagram-2024-10-08-213648.svg)
 
 ![](../assets/images/mermaid-diagram-2024-10-08-155219.svg)

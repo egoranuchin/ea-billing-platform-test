@@ -11,7 +11,7 @@ parent: User Guide
 ## Table of Contents
 {: .no_toc .text-delta }
 
-1. TOC
+TOC
 {:toc}
 
 ## 1. How do I enable Google Voice Command for Gmail?
