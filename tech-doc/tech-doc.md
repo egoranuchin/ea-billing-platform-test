@@ -24,7 +24,7 @@ Voice Command operates by integrating several core systems:
 When a user speaks a command (e.g., “Send an email”), the following flow is executed:
 
 ```mermaid
-graph TD
+graph LR
     subgraph User Interface
         A[User Voice Input] --> B[Voice Recognition Engine]
     end
