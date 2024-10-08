@@ -24,3 +24,10 @@ Use this guide to compose an email hands-free with Google Voice Command.
 	1.	After dictating your email, Google will prompt you by saying, “Do you want to send the email?”
 	2.	To confirm, say, “Send email.”
 	3.	If you decide not to send it, you can say, “Cancel” or “Don’t send.”
+
+
+Example Usage (via Voice Command):
+
+	•	User says, “Send an email to john@example.com.”
+	•	Voice Recognition parses the command, retrieves the email content (subject, body) and encodes it in Base64.
+	•	The messages/send endpoint is called to send the email.

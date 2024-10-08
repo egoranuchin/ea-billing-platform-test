@@ -2,6 +2,13 @@ title: Voice Command Documentation
 description: This is a documentation portal for the Voice Command feature.
 theme: just-the-docs
 
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "11.3.0"
+
+enable_copy_code_button: true
+
 color_scheme: foo
 
 url: https://github.com/egoranuchin/ea-billing-platform-test

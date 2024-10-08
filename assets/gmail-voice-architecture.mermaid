@@ -1,0 +1,39 @@
+graph TD
+    subgraph User Interface
+        A[User Voice Input] --> B[Voice Recognition Engine]
+    end
+
+    subgraph Natural Language Processing
+        B --> C[Speech-to-Text Conversion]
+        C --> D[Command Parser]
+        D --> E[Intent Classification]
+    end
+
+    subgraph Action Execution Layer
+        E --> F[Command Validator]
+        F --> G[API Command Mapper]
+        G --> H[Authentication Handler]
+    end
+
+    subgraph API Integration
+        H --> I[Gmail API]
+        I --> J[Response Handler]
+    end
+
+    subgraph User Feedback
+        J --> K[Response Formatter]
+        K --> L[Voice/Visual Feedback]
+    end
+
+    %% Styling
+    classDef interface fill:#e3f2fd,stroke:#1565c0
+    classDef nlp fill:#e8f5e9,stroke:#2e7d32
+    classDef execution fill:#fff3e0,stroke:#ef6c00
+    classDef api fill:#f3e5f5,stroke:#7b1fa2
+    classDef feedback fill:#fce4ec,stroke:#c2185b
+
+    class A,B interface
+    class C,D,E nlp
+    class F,G,H execution
+    class I,J api
+    class K,L feedback
