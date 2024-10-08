@@ -31,44 +31,4 @@ When a user speaks a command (e.g., “Send an email”), the following flow is 
 
 ![](../assets/images/gmail-voice-architecture-svg.svg)
 
-![](../assets/images/mermaid-diagram-2024-10-08-213648.svg)
-
-![](../assets/images/mermaid-diagram-2024-10-08-155219.svg)
-
-```mermaid
-graph TD
-    subgraph User Interface
-        A[User Voice Input] --> B[Voice Recognition Engine]
-    end
-
-    subgraph Voice Recognition and NLP
-        B --> C[Speech-to-Text Conversion]
-        C --> D[Command Parser]
-        D --> E[Intent Classification]
-    end
-
-    subgraph Action Execution Layer
-        E --> F[Command Validator]
-        F --> G[API Command Mapper]
-        G --> H[Gmail API]
-        H --> I[Response Handler]
-    end
-
-    subgraph User Feedback
-        I --> J[Response Formatter]
-        J --> K[Voice/Visual Feedback]
-    end
-
-    %% Styling
-    classDef interface fill:#e3f2fd,stroke:#1565c0,font-size:15px
-    classDef nlp fill:#e8f5e9,stroke:#2e7d32,font-size:15px
-    classDef api fill:#fff3e0,stroke:#ef6c00,font-size:15px
-    classDef feedback fill:#f3e5f5,stroke:#7b1fa2,font-size:15px
-
-    class A,B interface
-    class C,D,E nlp
-    class F,G,H,I api
-    class J,K feedback
-```
-
 For more information about the API calls used by the Voice Command components, see [API Reference](https://egoranuchin.github.io/ea-billing-platform-test/tech-doc/api-reference/api-reference.html).
