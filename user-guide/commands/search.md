@@ -7,7 +7,7 @@ ancestor: User Guide
 back_to_top: false
 ---
 
-# Searching for Emails
+## Searching for Emails
 
 Use this guide to search for specific emails using Google Voice Command.
 

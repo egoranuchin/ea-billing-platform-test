@@ -7,7 +7,7 @@ ancestor: User Guide
 back_to_top: false
 ---
 
-# Marking Emails as Important
+## Marking Emails as Important
 
 Follow these steps to mark an email as important for future reference:
 

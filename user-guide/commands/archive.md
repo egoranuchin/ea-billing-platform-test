@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Archiving
+title: Archiving Emails
 nav_order: 8
 parent: Commands
 ancestor: User Guide
 back_to_top: false
 ---
 
-# Archiving an Email
+## Archiving an Email
 
 To archive an email:
 

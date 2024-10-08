@@ -7,6 +7,8 @@ ancestor: User Guide
 back_to_top: false
 ---
 
+## Replying an Email
+
 Use this guide to reply to an email using voice commands:
 
 1. While reading an email, say, “*Reply to this email.*”

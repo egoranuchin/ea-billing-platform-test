@@ -6,7 +6,7 @@ parent: API Reference
 ancestor: Technical Documentation
 ---
 
-## API Endpoints
+## Gmail API Integration
 
 The integration heavily relies on the Gmail REST API, which offers a set of endpoints for email management, search, and composition. Below is a list of relevant API endpoints used in Google Voice Command:
 

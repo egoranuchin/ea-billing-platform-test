@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Composing
+title: Composing Emails
 nav_order: 1
 parent: Commands
 ancestor: User Guide
@@ -20,7 +20,3 @@ Use this guide to compose an email hands-free with Google Voice Command.
 7. To send the email, say “*Send email.*”
 8. If you need to review or make changes, say “*Edit email*” to revise the content before sending.
 9. If you want to save the email as a draft, say “*Save to Drafts*”.
-
-
-
-

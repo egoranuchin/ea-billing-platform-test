@@ -45,13 +45,3 @@ NLP breakdown:
 
 * Error #### Response: Gmail API errors such as rate limits, invalid email addresses, or authentication issues are captured and relayed back to the user through voice #### Response (e.g., “Unable to send the email at this time, please try again later”).
 * Timeouts: If no command is detected within a preset timeout period, the system can prompt users to retry.
-
-
-
-
-### Action Execution Layer
-
-
-
-
-
