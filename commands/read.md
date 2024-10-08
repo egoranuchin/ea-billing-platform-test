@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Read and Reply to Emails
-nav_order: 2
-parent: Managing Emails
+title: Reading Emails
+nav_order: 3
+parent: Commands
 ancestor: User Guide
+back_to_top: false
 ---
 
 ## Reading Emails

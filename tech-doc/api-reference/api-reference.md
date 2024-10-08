@@ -2,6 +2,7 @@
 layout: default
 title: API Reference
 parent: Technical Documentation
+has_children: true
 ---
 
 # Voice Command API Reference
