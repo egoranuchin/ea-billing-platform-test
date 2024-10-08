@@ -1,4 +1,12 @@
-API Reference for Google Voice Command NLP Backend
+---
+layout: default
+title: NLP API
+nav_order: 2
+parent: API Reference
+ancestor: Technical Documentation
+---
+
+## API Reference for Google Voice Command NLP Backend
 
 This section outlines the API endpoints, request parameters, and response structures for developers integrating Google Voice Command with the Gmail NLP backend. These APIs enable voice processing, command interpretation, and email management within Gmail through voice commands.
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Technical Documentation
-nav_order: 3
+nav_order: 2
 has_children: true
 ---
 
@@ -27,6 +27,8 @@ When a user speaks a command (e.g., “Send an email”), the following flow is 
 2. Voice Recognition and Natural Language Processing: The voice recognition engine processes the speech, converts it into text, and parses it into a structured command.
 3. Gmail API Invocation: The Action Execution Layer translates the command into the corresponding Gmail API call, handling authentication and execution.
 4. Response Handling: The result is relayed back to the user (e.g., email sent, unread emails listed).
+
+![](../assets/images/mermaid-diagram-2024-10-08-213648.svg)
 
 ![](../assets/images/mermaid-diagram-2024-10-08-155219.svg)
 

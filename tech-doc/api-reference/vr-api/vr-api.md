@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Archiving
-nav_order: 4
-parent: Commands
-ancestor: User Guide
+title: Voice Recognition API
+nav_order: 1
+parent: API Reference
+ancestor: Technical Documentation
 ---
 
 ## API Reference for Voice Recognition and NLP

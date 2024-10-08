@@ -5,17 +5,17 @@ parent: Technical Documentation
 has_children: true
 ---
 
-# Voice Command API Reference
+## Voice Command API Reference
 
-## Introduction
+### Introduction
 
 The Voice Command feature for Gmail enhances email management by utilizing the Gmail API for backend processing and voice recognition for front-end commands. Developers can extend or integrate this functionality into various applications. This document should serve as a reference for API usage and command execution flow.
 
-### Authentication
+#### Authentication
 
 Voice Command uses OAuth 2.0 to authenticate users with the Gmail API. Each command executed requires an active OAuth token from the user.
 
-#### OAuth 2.0 Flow
+##### OAuth 2.0 Flow
 
 1. Obtain an OAuth token by redirecting users to the following URL:
 
@@ -29,7 +29,7 @@ Voice Command uses OAuth 2.0 to authenticate users with the Gmail API. Each comm
 
 ``Authorization: Bearer {access_token}``
 
-### Command Mapping and NLP Integration
+#### Command Mapping and NLP Integration
 
 The NLP system integrated with Voice Command converts user input into structured Gmail actions. Each voice command is mapped to one or more Gmail API calls. For example:
 
@@ -41,7 +41,7 @@ NLP breakdown:
 * Entity: Recipient’s name/email address
 * Action: POST messages/send
 
-### Error Handling and #### ResponseManagement
+#### Error Handling and #### ResponseManagement
 
 * Error #### Response: Gmail API errors such as rate limits, invalid email addresses, or authentication issues are captured and relayed back to the user through voice #### Response (e.g., “Unable to send the email at this time, please try again later”).
 * Timeouts: If no command is detected within a preset timeout period, the system can prompt users to retry.
@@ -49,7 +49,7 @@ NLP breakdown:
 
 
 
-## Action Execution Layer
+### Action Execution Layer
 
 
 

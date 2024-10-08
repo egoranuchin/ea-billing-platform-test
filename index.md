@@ -11,7 +11,7 @@ has_children: true
 
 **Voice Command** is a hands-free feature that allows users to compose, send, and manage emails via voice commands. Powered by the latest voice recognition technology, users can dictate email content, navigate their inbox, and perform tasks like replying, forwarding, archiving, and deleting emails -- all without typing or using a keyboard.
 
-![alt text](image.png)
+![alt text](/assets/images/image.png)
 
 ### Key Features
 
