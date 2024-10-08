@@ -10,9 +10,7 @@ ancestor: User Guide
 
 Follow this guide to clean up your inbox using voice commands.
 
-	•	To archive an email:
-	1.	After reading an email, say, “Archive this email.”
-	2.	Google will archive the email and move it out of your inbox.
+
 
 
     
