@@ -56,11 +56,11 @@ The NLP system integrated with Voice Command converts user input into structured
 - Entity: Recipient’s name/email address
 - Action: POST messages/send
 
-For more information about the Voice Recognition API, see the [Voice Recognition API Reference]().
+For more information about the Voice Recognition API, see the [Voice Recognition API Reference](https://egoranuchin.github.io/ea-billing-platform-test/tech-doc/api-reference/vr-api/vr-api.html).
 
-For more information about the NLP API, see the [NLP AEL API Reference]().
+For more information about the NLP API, see the [NLP AEL API Reference](https://egoranuchin.github.io/ea-billing-platform-test/tech-doc/api-reference/nlp-ael-api/nlp-ael-api.html).
 
-For more information about the Gmail API integration, see the [Gmail API Integration Reference]().
+For more information about the Gmail API integration, see the [Gmail API Integration Reference](https://egoranuchin.github.io/ea-billing-platform-test/tech-doc/api-reference/gmail-api/gmail-api.html).
 
 ### Error Handling and Response Management
 

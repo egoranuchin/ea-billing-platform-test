@@ -10,10 +10,10 @@ nav_order: 1
 
 ## Key Features
 
-* **Voice-Activated Email Composition**: Users can start composing emails by dictating the recipient, subject, and body of the message. For example, say “Write an email to [recipient]” to begin the email creation process.
-* **Email Management via Voice**: With commands like “Show my unread emails” or “Delete this email,” users can efficiently manage their inbox hands-free.
-* **Voice Commands for Sending and Replying**: After composing an email, a simple “Send email” command will dispatch the message. Users can also reply to or forward emails with simple commands, such as "Reply to this email" or "Forward this email to [recipient]".
-* **Seamless Navigation**: Users can navigate through their inbox, and search for specific emails, using intuitive voice commands like “Search for emails from [sender]” or “Open my [notifications] inbox.”
+* **Voice-Activated Email Composition**: Users can start composing emails by dictating the recipient, subject, and body of the message. For example, say “*Write an email to [recipient]*” to begin the email creation process.
+* **Email Management via Voice**: With commands like “*Show my unread emails*” or “*Delete this email*,” users can efficiently manage their inbox hands-free.
+* **Voice Commands for Sending and Replying**: After composing an email, a simple “*Send email*” command will dispatch the message. Users can also reply to or forward emails with simple commands, such as "*Reply to this email*" or "*Forward this email to [recipient]*".
+* **Seamless Navigation**: Users can navigate through their inbox, and search for specific emails, using intuitive voice commands like “*Search for emails from [sender]*” or “*Open my [notifications] inbox.*”
 
 ## Use Cases
 

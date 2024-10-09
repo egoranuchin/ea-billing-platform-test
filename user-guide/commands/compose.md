@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Composing Emails
+title: Compose
 nav_order: 1
 parent: Commands
 ancestor: User Guide

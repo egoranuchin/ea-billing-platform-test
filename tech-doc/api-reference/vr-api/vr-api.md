@@ -303,4 +303,4 @@ The response from the voice recognition backend returns the transcribed text and
 ### Step 3: Process with NLP
 {: .no_toc }
 
-After receiving the transcribed command, the service sends it to the NLP backend for further processing using /nlp/interpretCommand. For more information about the NLP API, see the [NLP AEL API Reference]().
+After receiving the transcribed command, the service sends it to the NLP backend for further processing using /nlp/interpretCommand. For more information about the NLP API, see the [NLP AEL API Reference](https://egoranuchin.github.io/ea-billing-platform-test/tech-doc/api-reference/nlp-ael-api/nlp-ael-api.html).

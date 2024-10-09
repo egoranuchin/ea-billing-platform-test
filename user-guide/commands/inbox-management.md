@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Switch Inbox
-nav_order: 3
+nav_order: 5
 parent: Commands
 ancestor: User Guide
 back_to_top: false

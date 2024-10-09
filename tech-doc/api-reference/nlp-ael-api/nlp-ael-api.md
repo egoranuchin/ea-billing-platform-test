@@ -270,4 +270,4 @@ After interpreting the command, send a request to `/nlp/executeCommand` to compo
 }
 ```
 
-The request is then passed to the Gmail servers to complete the email delivery. For more information about the Gmail API integration, see the [Gmail API Integration Reference]().
+The request is then passed to the Gmail servers to complete the email delivery. For more information about the Gmail API integration, see the [Gmail API Integration Reference](https://egoranuchin.github.io/ea-billing-platform-test/tech-doc/api-reference/gmail-api/gmail-api.html).

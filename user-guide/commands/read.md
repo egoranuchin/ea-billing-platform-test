@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Reading Emails
+title: Read
 nav_order: 3
 parent: Commands
 ancestor: User Guide
