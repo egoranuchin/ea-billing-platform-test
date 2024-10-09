@@ -7,10 +7,9 @@ ancestor: Technical Documentation
 ---
 
 # Voice Recognition API Reference
+{: .no_toc }
 
 This API reference provides technical details of how the Voice Command service interacts with the Voice Recognition backend, processes voice inputs, converts them into text, and integrates with downstream services like the Google Voice Command NLP engine for further action.
-
-{: .no_toc }
 
 ## Table of Contents
 {: .no_toc .text-delta }

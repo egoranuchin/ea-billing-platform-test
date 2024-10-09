@@ -25,17 +25,17 @@ For more information about the Gmail API, please refer to the [Google Documentat
 POST https://gmail.googleapis.com/gmail/v1/users/{userId}/messages/send
 ```
 
-##### Description
+#### Description
 {: .no_toc }
 
 Sends an email using the Gmail API.
 
-##### Usage
+#### Usage
 {: .no_toc }
 
 Triggered when the user gives a “*Send email*” voice command after composing an email.
 
-##### Request Example
+#### Request Example
 {: .no_toc }
 
 ```

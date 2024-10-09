@@ -6,12 +6,12 @@ has_children: true
 ---
 
 # Voice Command API Reference
+{: .no_toc }
 
 ## Introduction
+{: .no_toc }
 
 The Voice Command feature for Gmail enhances email management by utilizing the Gmail API for backend processing and voice recognition for front-end commands. Developers can extend or integrate this functionality into various applications. This document should serve as a reference for API usage and command execution flow.
-
-{: .no_toc }
 
 ## Table of Contents
 {: .no_toc .text-delta }
@@ -24,6 +24,7 @@ The Voice Command feature for Gmail enhances email management by utilizing the G
 Voice Command uses OAuth 2.0 to authenticate users with the Google services API. Each command executed requires an active OAuth token from the user.
 
 #### OAuth 2.0 Flow
+{: .no_toc }
 
 1. Voice Command obtains an OAuth token by redirecting users to the following URL:
 

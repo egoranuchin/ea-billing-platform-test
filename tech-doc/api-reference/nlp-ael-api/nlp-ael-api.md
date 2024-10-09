@@ -81,7 +81,6 @@ This endpoint processes a voice input to interpret the user’s command and maps
 |action| The specific action to be performed, including relevant parameters.|
 
 ### Execute Command
-{: .no_toc }
 
 ```
 POST /nlp/executeCommand
@@ -191,13 +190,13 @@ POST /nlp/updateEmailStatus
 
 This endpoint updates the status of an email, such as marking it as important, archiving it, or applying a label.
 
-### Request Headers
+#### Request Headers
 {: .no_toc }
 
 - Authorization: Bearer `<OAuth2 token>`
 - Content-Type: application/json
 
-### Request Body
+#### Request Body
 {: .no_toc }
 
 ```json
@@ -217,7 +216,7 @@ This endpoint updates the status of an email, such as marking it as important, a
 |emailId| The ID of the email whose status is being updated.|
 |statusUpdate| The specific action to update the email’s status, such as “markImportant”, “archive”, or “label”.|
 
-### Response
+#### Response
 {: .no_toc }
 
 ```json
