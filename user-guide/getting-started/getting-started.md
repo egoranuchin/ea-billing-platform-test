@@ -35,4 +35,4 @@ Ensure that you have the latest version of both the Gmail and Google apps instal
 3. Turn on **Access with Voice Match** and ensure that microphone permissions are granted for the Google app.
 4. Ensure that your Google account is synced with Gmail.
 
-For more information about how to use the Voice Command, see the [Activating Voice Commands](https://egoranuchin.github.io/ea-billing-platform-test/user-guide/using-voice.html).
+For more information about how to use the Voice Command, see the [Activating Voice Commands](https://egoranuchin.github.io/ea-billing-platform-test/user-guide/using-voice/using-voice.html).
