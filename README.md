@@ -1,19 +1,21 @@
-# Event.Rocks Sessions Module Documentation
+# Voice Command Documentation
 
-Welcome to the official documentation repository for the Event.Rocks Sessions Module. This module is designed to enhance your event management experience, providing robust features for handling sessions within events. Our goal is to offer a seamless and efficient tool for event organizers, speakers, and attendees.
+**Voice Command** is a hands-free feature that allows users to compose, send, and manage emails via voice commands. Powered by the latest voice recognition technology, users can dictate email content, navigate their inbox, and perform tasks like replying, forwarding, archiving, and deleting emails -- all without typing or using a keyboard.
 
 ## Features
 
-- **Session Scheduling:** Effortlessly schedule sessions with flexible time slots.
-- **Users Management:** Assign speakers to sessions and manage their profiles.
-- **Attendee Interaction:** Enable attendees to interact with session content.
-- **Real-Time Updates:** Keep everyone informed with live updates during the event.
-- **Analytics:** Gain insights with detailed analytics on session engagement.
+- **Voice-Activated Email Composition**: Users can start composing emails by dictating the recipient, subject, and body of the message. For example, say “*Write an email to [recipient]*” to begin the email creation process.
+- **Email Management via Voice**: With commands like “*Show my unread emails*” or “*Delete this email*,” users can efficiently manage their inbox hands-free.
+- **Voice Commands for Sending and Replying**: After composing an email, a simple “*Send email*” command will dispatch the message. Users can also reply to or forward emails with simple commands, such as "*Reply to this email*" or "*Forward this email to [recipient]*".
+- **Seamless Navigation**: Users can navigate through their inbox, and search for specific emails, using intuitive voice commands like “*Search for emails from [sender]*” or “*Open my [notifications] inbox.*”
 
 ## Documentation
 
-- **User Guide:** For users interacting with the module.
-- **FAQs:** Answers to commonly asked questions.
+- **Feature Overview**
+    - **FAQ**
+- **User Guide:**
+- **Technical Documentation**
+- **Release Notes**
 
 ## Contributing
 
@@ -21,12 +23,8 @@ We welcome contributions! Please open an issue to propose a fix or ask for detai
 
 ## Support and contribution
 
-For support, please open an issue in the [GitHub Issue Tracker](https://github.com/eventrocks/sessions-module/issues).
-
-## About Event.Rocks
-
-Event.Rocks is committed to providing cutting-edge event management solutions. Learn more about us at [our website](https://event.rocks/).
+For support, please open an issue in the [GitHub Issue Tracker](https://github.com/egoranuchin/ea-billing-platform/issues).
 
 ---
 
-Thank you for using Event.Rocks Sessions Module!
+Thank you for using Voice Command!
