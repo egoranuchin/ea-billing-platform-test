@@ -20,18 +20,20 @@ This API reference provides technical details of how the Voice Command service i
 
 ### Recognize
 
-```curl
+```
 POST /voice/recognize
 ```
 
 This endpoint is used to send a voice recording and receive the transcribed text. It utilizes Google’s voice recognition system to process the voice input and return it as a structured text response.
 
 #### Request Headers
+{: .no_toc }
 
 - Authorization: Bearer `<OAuth2 token>`
 - Content-Type: multipart/form-data
 
 #### Request Body
+{: .no_toc }
 
 ```json
 {
@@ -53,6 +55,7 @@ This endpoint is used to send a voice recording and receive the transcribed text
 |context| Application-specific context, such as whether a command is expected (e.g., Gmail command).|
 
 #### Response
+{: .no_toc }
 
 ```json
 {
@@ -79,18 +82,20 @@ This endpoint is used to send a voice recording and receive the transcribed text
 
 ### Voice Streaming
 
-```curl
+```
 POST /voice/startStreaming
 ```
 
 This endpoint is used to start streaming voice input in real-time for transcription. It’s useful when you need to handle continuous voice input, such as in scenarios where commands are spoken over an extended period.
 
 #### Request Headers
+{: .no_toc }
 
 - Authorization: Bearer `<OAuth2 token>`
 - Content-Type: multipart/form-data
 
 #### Request Body
+{: .no_toc }
 
 ```json
 {
@@ -111,6 +116,7 @@ This endpoint is used to start streaming voice input in real-time for transcript
 |context| Application context, such as Gmail or Calendar.|
 
 #### Response
+{: .no_toc }
 
 ```json
 {
@@ -128,18 +134,20 @@ This endpoint is used to start streaming voice input in real-time for transcript
 
 ### End Voice Streaming
 
-```curl
+```
 POST /voice/stopStreaming
 ```
 
 This endpoint stops the voice input stream started by `/voice/startStreaming` and retrieves the transcribed text.
 
 #### Request Headers
+{: .no_toc }
 
 - Authorization: Bearer `<OAuth2 token>`
 - Content-Type: application/json
 
 #### Request Body
+{: .no_toc }
 
 ```json
 {
@@ -154,8 +162,9 @@ This endpoint stops the voice input stream started by `/voice/startStreaming` an
 |streamId| The unique identifier of the streaming session (received from /voice/startStreaming).|
 
 #### Response
+{: .no_toc }
 
-```curl
+```json
 {
   "status": "success",
   "transcript": "Send email to Jane",
@@ -180,18 +189,20 @@ This endpoint stops the voice input stream started by `/voice/startStreaming` an
 
 ### Detect Language
 
-```curl
+```
 POST /voice/detectLanguage
 ```
 
 This endpoint detects the language from a short voice sample to ensure that the voice command is processed in the correct language.
 
 #### Request Headers
+{: .no_toc }
 
 - Authorization: Bearer `<OAuth2 token>`
 - Content-Type: multipart/form-data
 
 #### Request Body
+{: .no_toc }
 
 ```json
 {
@@ -208,6 +219,7 @@ This endpoint detects the language from a short voice sample to ensure that the 
 |sampleDuration| Duration of the voice sample in seconds (minimum 3 seconds recommended).|
 
 #### Response
+{: .no_toc }
 
 ```json
 {
@@ -225,17 +237,19 @@ This endpoint detects the language from a short voice sample to ensure that the 
 
 ### Get Supported Languages
 
-```curl
+```
 GET /voice/getSupportedLanguages
 ```
 
 This endpoint retrieves a list of languages supported by the Google Voice Recognition service, allowing applications to provide multi-language support.
 
 #### Request Headers
+{: .no_toc }
 
 - Authorization: Bearer `<OAuth2 token>`
 
 #### Response
+{: .no_toc }
 
 ```json
 {
@@ -260,6 +274,7 @@ This endpoint retrieves a list of languages supported by the Google Voice Recogn
 Example: Recognizing Voice Input for Composing an Email
 
 ### Step 1: Send Audio for Transcription
+{: .no_toc }
 
 1. The user provides a voice input such as *“Compose email to Jane about the project.”*
 2. The service submits the audio file to `/voice/recognize`.
@@ -273,6 +288,7 @@ Example: Recognizing Voice Input for Composing an Email
 ```
 
 ### Step 2: Get the Transcription
+{: .no_toc }
 
 The response from the voice recognition backend returns the transcribed text and metadata.
 
@@ -286,5 +302,6 @@ The response from the voice recognition backend returns the transcribed text and
 ```
 
 ### Step 3: Process with NLP
+{: .no_toc }
 
-After receiving the transcribed command, the service sends it to the NLP backend for further processing using /nlp/interpretCommand.
+After receiving the transcribed command, the service sends it to the NLP backend for further processing using /nlp/interpretCommand. For more information about the NLP API, see the [NLP AEL API Reference]().

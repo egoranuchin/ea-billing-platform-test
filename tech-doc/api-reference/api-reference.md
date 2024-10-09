@@ -27,13 +27,13 @@ Voice Command uses OAuth 2.0 to authenticate users with the Google services API.
 
 1. Voice Command obtains an OAuth token by redirecting users to the following URL:
 
-    ```url
+    ```
     https://accounts.google.com/o/oauth2/auth?client_id={client_id}&redirect_uri={redirect_uri}&#### Responsetype=code&scope=https://www.googleapis.com/auth/gmail.modify
     ```
 
 2. Once users grant access, the service exchanges the authorization code for an access token using:
 
-    ```curl
+    ```
     POST https://oauth2.googleapis.com/token
     ```
 
@@ -54,6 +54,12 @@ The NLP system integrated with Voice Command converts user input into structured
 - Intent: Send Email
 - Entity: Recipient’s name/email address
 - Action: POST messages/send
+
+For more information about the Voice Recognition API, see the [Voice Recognition API Reference]().
+
+For more information about the NLP API, see the [NLP AEL API Reference]().
+
+For more information about the Gmail API integration, see the [Gmail API Integration Reference]().
 
 ### Error Handling and Response Management
 

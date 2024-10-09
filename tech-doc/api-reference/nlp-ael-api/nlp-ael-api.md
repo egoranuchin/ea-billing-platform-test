@@ -19,18 +19,20 @@ This API reference provides the API endpoints, request parameters, and response 
 
 ### Intepret Command
 
-```curl
+```
 POST /nlp/interpretCommand
 ```
 
 This endpoint processes a voice input to interpret the user’s command and maps it to a corresponding email action.
 
 #### Headers
+{: .no_toc }
 
 - Authorization: Bearer `<OAuth2 token>`
 - Content-Type: application/json
 
 #### Request Body
+{: .no_toc }
 
 ```json
 {
@@ -55,6 +57,7 @@ This endpoint processes a voice input to interpret the user’s command and maps
 |context| Includes the current context of the conversation, such as the application state (Gmail), and details about the email or thread the command applies to.|
 
 #### Response
+{: .no_toc }
 
 ```json
 {
@@ -78,19 +81,22 @@ This endpoint processes a voice input to interpret the user’s command and maps
 |action| The specific action to be performed, including relevant parameters.|
 
 ### Execute Command
+{: .no_toc }
 
-```curl
+```
 POST /nlp/executeCommand
 ```
 
 Once a command is interpreted, this endpoint executes the email action, such as sending an email, applying a label, or reading the email content.
 
 #### Request Headers
+{: .no_toc }
 
 - Authorization: Bearer `<OAuth2 token>`
 - Content-Type: application/json
 
 #### Request Body
+{: .no_toc }
 
 ```json
 {
@@ -112,6 +118,7 @@ Once a command is interpreted, this endpoint executes the email action, such as 
 |parameters| Parameters required to complete the action, such as recipient, subject, and message body for composing emails.|
 
 #### Response
+{: .no_toc }
 
 ```json
 {
@@ -129,17 +136,19 @@ Once a command is interpreted, this endpoint executes the email action, such as 
 
 ### Get Email Details
 
-```curl
+```
 GET /nlp/getEmailDetails
 ```
 
 This endpoint retrieves email details based on the user’s command, such as reading an email or checking the latest email in the inbox.
 
 #### Request Headers
+{: .no_toc }
 
 - Authorization: Bearer `<OAuth2 token>`
 
 #### Request Body
+{: .no_toc }
 
 ```json
 {
@@ -154,6 +163,7 @@ This endpoint retrieves email details based on the user’s command, such as rea
 |emailId| The ID of the specific email to be retrieved.|
 
 #### Response
+{: .no_toc }
 
 ```json
 {
@@ -175,18 +185,20 @@ This endpoint retrieves email details based on the user’s command, such as rea
 
 ### Update Email Status
 
-```curl
+```
 POST /nlp/updateEmailStatus
 ```
 
 This endpoint updates the status of an email, such as marking it as important, archiving it, or applying a label.
 
 ### Request Headers
+{: .no_toc }
 
 - Authorization: Bearer `<OAuth2 token>`
 - Content-Type: application/json
 
 ### Request Body
+{: .no_toc }
 
 ```json
 {
@@ -206,6 +218,7 @@ This endpoint updates the status of an email, such as marking it as important, a
 |statusUpdate| The specific action to update the email’s status, such as “markImportant”, “archive”, or “label”.|
 
 ### Response
+{: .no_toc }
 
 ```json
 {
@@ -226,6 +239,7 @@ This endpoint updates the status of an email, such as marking it as important, a
 Example: Composing and Sending an Email via Voice Command
 
 ### Step 1. Interpret the Command
+{: .no_toc }
 
 1. Voice Recognition API provides command string: “*Compose email to John about the meeting.*”
 2. The service sends a request to `/nlp/interpretCommand` with the transcribed command.
@@ -241,6 +255,7 @@ Example: Composing and Sending an Email via Voice Command
 ```
 
 ### Step 2. Execute the Command
+{: .no_toc }
 
 After interpreting the command, send a request to `/nlp/executeCommand` to compose and send the email.
 
@@ -256,4 +271,4 @@ After interpreting the command, send a request to `/nlp/executeCommand` to compo
 }
 ```
 
-The request is then passed to the Gmail servers to complete the email delivery.
+The request is then passed to the Gmail servers to complete the email delivery. For more information about the Gmail API integration, see the [Gmail API Integration Reference]().
